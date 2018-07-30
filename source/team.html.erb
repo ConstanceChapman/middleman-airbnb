@@ -1,0 +1,13 @@
+---
+title: Team
+---
+<div id="about">
+  <ul class="list-inline text-center">
+    <% ["connie", "thiago"].each do |name| %>
+      <li>
+        <%= image_tag "#{name}.jpeg", class: "img-circle" %>
+        <h3><%= name.capitalize %></h3>
+      </li>
+    <% end %>
+  </ul>
+</div>
