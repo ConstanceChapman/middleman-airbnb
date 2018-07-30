@@ -1,6 +1,6 @@
 #home {
-  background-color: #D23333;
-  color: white;
+  background-color: $dark-blue;
+  color: $orange;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -10,13 +10,13 @@
     margin-top: 1.5em;
   }
   a {
-    color: rgba(0,0,0,0.4);
+    color: $orange;
     font-weight: bold;
     font-size: 16px;
   }
 }
 
 #card-grid {
-  background-color: $light-gray;
+  background-color: $yellow;
   padding: 20px;
 }
